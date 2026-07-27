@@ -43,3 +43,21 @@ console.log(typeof myFunction);
 
 
 */
+
+//+++++++++++++++++++++++++++++++
+
+//stack (premitive ),heap(non-premitive)
+let myname = "bharat"
+let another = "myname"
+another="chai"
+console.log(myname)
+console.log(another)
+
+let userone = {
+    name:"bharat",
+    age:22}
+
+let usertwo = userone
+usertwo.name="swaraj"
+console.log(userone.name)
+console.log(usertwo.name)
