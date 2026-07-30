@@ -6,7 +6,7 @@ const myarr2= new Array(1, 2, 3, 4, 5);
 
 //array methods
 
-/*myArr.push(6); // Adds 6 to the end of the array
+myArr.push(6); // Adds 6 to the end of the array
 console.log(myArr) // Output : [1, 2, 3, 4, 5, 6]
 
 myarr2.pop(); // Removes the last element from the array
@@ -23,7 +23,7 @@ console.log(myArr.includes(4))//checks availability of element
 const newARR =myArr.join()
 
 console.log(myArr)
-console.log(newARR)*/
+console.log(newARR)
 
 //slice,splice
 
