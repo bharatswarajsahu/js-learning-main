@@ -7,7 +7,7 @@ const tinderuser ={}
 tinderuser.name="bharat";
 tinderuser.age=23;
 tinderuser.email="bharat@"
-console.log(tinderuser)//non singleton object
+//console.log(tinderuser)//non singleton object
 
 
 const regularuser ={
@@ -55,8 +55,46 @@ const users=[
     },
 ]
 
-users[1].email
+/*users[1].email
 console.log(Object.keys(tinderuser))
 console.log(Object.values(tinderuser))
 console.log(Object.entries(tinderuser))
-console.log(tinderuser.hasOwnProperty("age"))
+console.log(tinderuser.hasOwnProperty("age"))*/
+
+
+const course={
+ coursename:"js",
+ price:99,
+ courseInstructor:"bharat",
+
+}
+
+//couse.courseInstructor
+
+const{courseInstructor}=course
+//console.log(courseInstructor)
+const{courseInstructor:instructor}=course
+console.log(instructor)
+
+const navbar =({company}) => {
+
+
+}
+navbar(company="bharat"),
+
+{
+    name:"bharatswaraj",
+    coursename:"js",
+    price:"free"
+
+
+
+}
+
+[
+  {},
+  {},
+  {}
+
+
+]
